@@ -10,30 +10,30 @@ mingw32 or make will hopefully come with g++, so make sure to do that.
 
 ## Debug Mode
 To build this project in debug with all the errors showing, enter these commands:
-`
+```
 cd bin/debug
 make
-`
+```
 or
-`
-cd bin/debug
+```
+cd bin/debug &&
 mingw32-make
-`
+```
 to build the project in ```debug``` mode.
 
 ## Release Mode
 Sadly, the faster means more dangerous, since ```release``` mode doesn't have any ```-Wall``` flags, your project can exceed your memory and shut down your computer. Make sure to test in ```debug``` mode first.
 
 To build this project:
-`
+```
 cd bin/release
 make
-`
+```
 or
-`
+```
 cd bin/release
 mingw32-make
-`
+```
 to build the project in the fastest mode to have optimizations.
 
 
