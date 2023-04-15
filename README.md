@@ -1,9 +1,10 @@
 # C-SDL2-Setup
-SDL2 along with SDL_ttf, SDL_image, and SDL_mixer are all you need to create a simple game in C++. This project template includes boilerplate code, and the basic project setup.
+SDL2 along with SDL_ttf, SDL_image, and SDL_mixer are all you need to create a simple game in C++. This project template includes boilerplate code, and the basic project setup. 
 
 # Requirements
 g++ must be installed on your computer, to learn how to get the right version on windows, you can just watch [CoderGophers Tutorial](https://www.youtube.com/watch?v=KsG6dJlLBDw)
 mingw32 or make will hopefully come with g++, so make sure to do that.
+[Visual Studio Code](https://code.visualstudio.com/) should be installed on your computer.
 
 # Building
 
@@ -34,3 +35,8 @@ cd bin/release
 mingw32-make
 `
 to build the project in the fastest mode to have optimizations.
+
+
+# Credits
+Thanks to [PolyMars](https://www.youtube.com/c/PolyMars) for some of the build code.
+Thanks to [CoderGopher](https://www.youtube.com/channel/UCfiC4q3AahU4Io-s83-CIbQ) for most of the inspiration.
